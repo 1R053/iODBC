@@ -155,6 +155,7 @@
 		CDAE3B350987CEF4003250F8 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
@@ -174,6 +175,7 @@
 				HEADER_SEARCH_PATHS = ../../include;
 				INSTALL_PATH = "/Library/Application Support/iODBC/bin";
 				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				OTHER_CFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = iodbctest;
@@ -192,6 +194,7 @@
 		CDAE3B360987CEF4003250F8 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = $IODBC_VERSION;
@@ -209,6 +212,7 @@
 				HEADER_SEARCH_PATHS = ../../include;
 				INSTALL_PATH = "/Library/Application Support/iODBC/bin";
 				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				OTHER_CFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = iodbctest;

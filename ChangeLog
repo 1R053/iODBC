@@ -1,3 +1,7 @@
+2024-11-12  Jörg Rose <joerg.rose@evoye.com>
+
+    Updated Mac build for Sequoia compatibility, removed 386 support on Mac
+
 2023-05-02  Patrick van Kleef  <pkleef@openlinksw.com>
 
 	Updated NEWS

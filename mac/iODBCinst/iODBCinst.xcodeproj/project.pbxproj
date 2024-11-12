@@ -491,6 +491,7 @@
 		CDAE3B0D0987CDA2003250F8 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = $IODBC_VERSION;
@@ -518,7 +519,7 @@
 				INFOPLIST_FILE = "Info-iODBCinst.plist";
 				INSTALL_PATH = /Library/Frameworks;
 				LIBRARY_SEARCH_PATHS = "";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				OTHER_CFLAGS = "-fno-constant-cfstrings";
 				PRODUCT_BUNDLE_IDENTIFIER = org.iodbc.inst;
 				PRODUCT_NAME = iODBCinst;
@@ -537,6 +538,7 @@
 		CDAE3B0E0987CDA2003250F8 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = $IODBC_VERSION;
@@ -563,7 +565,7 @@
 				INFOPLIST_FILE = "Info-iODBCinst.plist";
 				INSTALL_PATH = /Library/Frameworks;
 				LIBRARY_SEARCH_PATHS = "";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				OTHER_CFLAGS = "-fno-constant-cfstrings";
 				PRODUCT_BUNDLE_IDENTIFIER = org.iodbc.inst;
 				PRODUCT_NAME = iODBCinst;
